@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    tools:context=".datos">
+
+    <TextView
+        android:id="@+id/txt_Datos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.10"
+        android:textColor="@color/light_blue"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:text="@string/string_mis_datos"/>
+
+    <TextView
+        android:id="@+id/txt_Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_Datos"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        android:textColor="@color/teal_700"
+        android:textSize="25sp"
+        android:hint="@string/string_nombre"/>
+
+    <TextView
+        android:id="@+id/txt_Codigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_Nombre"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        android:textColor="@color/teal_700"
+        android:textSize="25sp"
+        android:hint="@string/string_codigo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">LOGIN</string>
+    <string name="app_conversation">CONVERSATION</string>
+    <string name="app_calculator">CALCULATOR</string>
+    <string name="app_datos">DATOS</string>
+
+
+
+    <string name="string_conversation">Conversations</string>
+    <string name="string_login">Login</string>
+    <string name="string_calculator">Calculator</string>
+    <string name="string_datos">Datos</string>
+    <string name="string_username">Username</string>
+    <string name="string_password">Password</string>
+
+    <string name="string_mis_datos">Mis Datos</string>
+    <string name="string_nombre">Daniel Fernando Cuéllar Larín</string>
+    <string name="string_codigo">CL17-I04-002</string>
+
+
+
+    <string name="string_AC">AC</string>
+    <string name="string_DEL">DEL</string>
+    <string name="string_suma">+</string>
+    <string name="string_resta">-</string>
+    <string name="string_inv">INV</string>
+    <string name="string_deg">DEG</string>
+    <string name="string_Porcentaje">%</string>
+
+
+    <string name="string_7">7</string>
+    <string name="string_8">8</string>
+    <string name="string_9">9</string>
+    <string name="string_multi">*</string>
+    <string name="string_sin">Sin</string>
+    <string name="string_cos">Cos</string>
+    <string name="string_tan">Tan</string>
+
+    <string name="string_4">4</string>
+    <string name="string_5">5</string>
+    <string name="string_6">6</string>
+    <string name="string_divi">/</string>
+    <string name="string_Ln">Ln</string>
+    <string name="string_log">Log</string>
+    <string name="string_notacion">!</string>
+
+
+    <string name="string_1">1</string>
+    <string name="string_2">2</string>
+    <string name="string_3">3</string>
+    <string name="string_igual">=</string>
+    <string name="string_pi">π</string>
+    <string name="string_euler">e</string>
+    <string name="string_exponente">^</string>
+    <string name="string_cero">0</string>
+</resources>
